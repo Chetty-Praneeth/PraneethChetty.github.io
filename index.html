@@ -142,10 +142,10 @@
                 <a href="#">FAQ</a>
             </li>
             <li>
-                <a href="#">Projects</a>
+                <a href="#education">Education</a>
             </li>
             <li>
-                <a href="#">Education</a>
+                <a href="#forums">Forums</a>
             </li>
             <li>
                 <a href="#">Projects</a>
@@ -159,5 +159,13 @@
         </p>
     </footer>
     <script src="style.js"></script>
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+    
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
